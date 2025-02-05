@@ -3,10 +3,10 @@ name: Node.js CI/CD with AKS Integration
 on:
   push:
     branches:
-      - test
+      - master
   pull_request:
     branches:
-      - test
+      - master
 
 jobs:
   build:
