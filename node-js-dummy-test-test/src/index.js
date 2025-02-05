@@ -4,7 +4,7 @@ var bodyParser = require("body-parser");
 var app = express();
 const port = process.env.PORT || 3000;
 
-//dependencies required for the app
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 //render css files
